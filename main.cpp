@@ -6,7 +6,7 @@ using std::vector;
 
 int main()
 {
-    //read to buffer
+    //read hello.txt to buffer
     FILE *file = fopen("/Users/xiaoyulove/Documents/old/sgnannan/fread-vect/hello.txt", "rb+");
 
     size_t curpos,length;
